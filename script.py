@@ -13,13 +13,13 @@ API_URLS = [
 TOTAL_WORKERS = 25
 GROUP_SIZE = 5
 INTERVAL = 2
-RUN_DURATION = 3600 * 24  # 24 hours
+RUN_DURATION = 600 # 10 minutes
 
 async def worker(session, worker_id, url):
     counter = 0
     end_time = time.time() + RUN_DURATION
 
-    while time.time() < end_time:
+    while True:
         counter += 1
         cron_id = f"worker_google_{worker_id}_{counter}"
 
