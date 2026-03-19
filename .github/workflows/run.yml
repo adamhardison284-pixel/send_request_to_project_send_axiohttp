@@ -28,4 +28,4 @@ jobs:
       - name: 🚀 Run script
         run: |
           echo "Starting workers..."
-          timeout 600 python -u script.py > output.log
+          timeout 600 python -u script.py
