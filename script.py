@@ -8,7 +8,7 @@ API_URLS = [
     "https://lezrsmwspvrdahngtvli.supabase.co/functions/v1/PojectSend",
     #"https://vuudkapcuwtkepeqkpfx.supabase.co/functions/v1/PojectSend",
     "https://guypgtlqmsoyjvsspfro.supabase.co/functions/v1/PojectSend",
-    "https://neighiwqhabqzhakwupe.supabase.co/functions/v1/PojectSend",
+    #"https://neighiwqhabqzhakwupe.supabase.co/functions/v1/PojectSend",
     "https://gmweskylxvbhhgrcftbo.supabase.co/functions/v1/PojectSend",
 ]
 
