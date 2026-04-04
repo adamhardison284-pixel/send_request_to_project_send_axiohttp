@@ -11,6 +11,9 @@ API_URLS = [
     "https://neighiwqhabqzhakwupe.supabase.co/functions/v1/PojectSend",
     "https://gmweskylxvbhhgrcftbo.supabase.co/functions/v1/PojectSend",
 ]
+API_URLS = [
+    "https://script.google.com/macros/s/AKfycbxOlglF40Sd9E0P8q3O1bGSoOyBOgBjnFDbrMr5ahUHp4Dcl0hpnIYgIVpv8e-1alNysQ/exec"
+]
 
 TOTAL_WORKERS = 25
 INTERVAL = 1  # faster since we dynamically control load
